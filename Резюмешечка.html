@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>   
+    </body>
+    <head>  
+        <meta charset="UTF-8">
+        <title>Портфолио</title>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    </head>
+
+    <Body>
+    <h1 style="font-size: 50px; font-family: Arial, Helvetica, sans-serif; text-align: center; color: brown ; ">Моё резюме</h1>
+    
+    <div style="display: flex; flex-direction: row; ">
+        <img alt="Me" src="я.jpg" style="width: 400px; height: 400px; margin: 0px 20px 0px 10px">  
+        
+         <div style="display: flex; flex-direction: column;">
+            <h1 style="font-size: 30px; font-family: Times New Roman; text-align: center; display: flex; flex-direction: column; color: white; ">Привет!</h1>
+            <p style="font-size: 20px; font-family: Times New Roman; text-align: justify; display: flex; color: white; text-decoration: underline;">Меня зовут Антон. Мне 17 лет учусь я на 3 курсе, в группе ПЗТ-35, Гродненского государственного политехнического колледжа. Родился и живу я в городе Гродно. В свободное время я играю на гитаре. Также в свободное от учёбы время я смотрю сериалы.</p>
+            <p style="font-size: 20px; font-family: Times New Roman; text-align: justify; display: flex; color: white; text-decoration: underline;">Мои увлечения</p>
+         <ul style="font-size: 20px; font-family: Times New Roman;text-align: left; color: white;">
+            <li>Рисование</li>
+            <li>Игра на гитаре</li>
+            <li>Баскетбол</li>
+        </ul>
+        <p style="font-size: 20px; font-family: Times New Roman; text-align: justify; display: flex; color: white; text-decoration: underline;">Мои предпочтения в еде</p>
+        <ul style="font-size: 20px; font-family: Times New Roman;text-align: left; color: white;">
+            <li>Мясо по француски</li>
+            <li>Пицца</li>
+            <li>Шаурма</li>
+         </ul>
+         <p style="font-size: 20px; font-family: Times New Roman; text-align: justify; display: flex; color: white;">Я не один ребенок в семье, у меня есть младший брат, который младше меня на 6 лет, младшая сестра, которая младше на 7 лет и старший брат который старше на 9 лет.</p>
+        </div>
+    </div>
+    
+    <!-- див для видео и аудио-->
+<div style="display: flex; flex-direction: row; justify-content: space-around;">
+    <div style="display: flex; flex-direction: column; align-items: center; font-family: 'Times New Roman'; color: white;">
+        <h1>Мои любимые треки:</h1>
+        <p><i>Dorogu molodym</i></p>
+        <audio src="goro_-_dorogu-molodym.mp3" controls>Cello Theme</audio>
+        <p> <i>Moya igra</i></p>
+        <audio src="basta_-_moya-igra.mp3" controls></audio>
+        <p><i>Baby stop</i></p>
+        <audio src="bagardi_-_baby-stop.mp3" controls></audio>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; font-family: 'Times New Roman'; color: white;">
+        <h1><i>Square Hammer</i></h1>
+        <video width="640" height="360" src="2 минуты релаксации Море.mp4" controls> </video> 
+        
+    </div>
+</div>
+
+<div>
+    <div style="display: flex; flex-direction: column; align-items: baseline; font-family: 'Times New Roman'; color: blueviolet;">
+<table border="1">
+    <tr>
+        <td rowspan="2">Предметы</td>
+        <td>ЗКИ</td>
+        <td>ТРПО</td>
+        <td>КПиЯП</td>
+   </tr>
+   <tr>
+    <td>8</td>
+    <td>7</td>
+    <td>5</td>
+   </tr>
+   <tr align="center">
+    <td>Заинтерисованность</td>
+    <td>Да</td><td>Да</td><td>Не особо</td>
+   </tr>
+</table>
+</div>
+</div>
+    <form class="guruweba_example_form" name="feedback" method="POST" action="/feedback.php">
+  <div class="guruweba_example_caption">Обратная связь</div>
+  <div class="guruweba_example_infofield">Тема обращения</div>
+  <select name="theme" required="required">
+    <option value="">Выберите вариант</option>
+    <option>Вопрос по работе страницы</option>
+    <option>Вопрос о какой-либо песне</option>
+    <option>Пожелания / предложения в улучшении страницы</option>
+  </select>
+  <div>Ваше имя</div>
+  <input type="text" name="name" required="required">
+  <div>Ваш email</div>
+  <input type="email" name="email" required="required">
+  <div>Сообщение</div>
+  <textarea name="message"></textarea>
+  <input type="submit" name="submit_btn" value="Отправить"><br>
+  <div>
+    <a href = "https://vk.com/toxa_kage" target="_blank">Мой ВК</a><br>
+    <a href = "https://www.instagram.com/toxa_kage/" target="_blank">Мой инстаграм</a><br>
+    <a href="#top">Наверх</a>
+  </div>
+</form>
+    </Body>
+</html>

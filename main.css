@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+}   
+
+body{
+    background-image: url(я.jpg);
+}
+H1{
+  background-color:#4b0082;  
+}
+A{
+    color: #8b008b; /*Цвет обычной ссылки*/ 
+}
+A:visited {
+            color: #ee82ee; /*Цвет посещенной ссылки*/
+         }
+A:hover {
+            color: #ff00ff; /*Цвет ссылки при наведении на них курсора мыши*/
+         }
+ A:active {
+            color: #ba55d3; /*Цвет активных ссылок*/
+}
+.td{
+background-color: #4b0082; color: white
+}
+
+.sun{
+    color: #7b68ee
+}
+
+.moon{
+    font-size: 26px; font-family: Courier New, cursive; text-align: justify; display: flex; color: white;
+}
